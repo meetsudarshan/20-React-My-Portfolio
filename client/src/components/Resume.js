@@ -8,7 +8,7 @@ const Resume = () => {
     'React',
     'Node.js',
     'Express',
-    // Add more proficiencies as needed
+  
   ];
 
   const certifications = [
@@ -17,13 +17,13 @@ const Resume = () => {
     'Certified ScrumMaster',
     'Certified Product Owner/Product Manager (POPM)',
     'Certified Salesforce Administrator',
-    // Add more certifications as needed
+
   ];
 
   const ongoingLearning = [
     'Quadient',
     'AWS Associate Architect',
-    // Add more ongoing learning topics as needed
+
   ];
 
   return (

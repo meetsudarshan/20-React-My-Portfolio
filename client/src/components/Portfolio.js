@@ -30,7 +30,7 @@ const Portfolio = () => {
       deployLink: 'https://meetsudarshan.github.io/05-ThirdParty-API-Challenge/',
       repoLink: 'https://github.com/meetsudarshan/05-ThirdParty-API-Challenge'
     },
-    // Add more project objects as needed
+
   ];
 
   return (

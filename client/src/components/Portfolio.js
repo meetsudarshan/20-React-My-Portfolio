@@ -1,32 +1,37 @@
 import React from 'react';
+import image1 from '../Images/whatrightnow.jpg';
+import image2 from '../Images/Japanese Castles.jpg';
+import image3 from '../Images/OddJobs.jpg';
+import image4 from '../Images/workdayscheduler.jpg';
+
 
 const Portfolio = () => {
   const projects = [
     {
       id: 1,
       title: 'What Right Now- Where you can check your daily weather and restaurants nearby',
-      image: "./Images/whatrightnow.jpg",
+      image: { image1 },
       deployLink: 'https://meetsudarshan.github.io/WhatRightNow/',
       repoLink: 'https://github.com/meetsudarshan/WhatRightNow'
     },
     {
       id: 2,
       title: '100 Japanese Castles- Pocket guide to the Japanese Castles for visitors',
-      image: "./Images/Japanese Castles.jpg",
+      image: { image2 },
       deployLink: 'https://rocky-fortress-11303.herokuapp.com/login',
       repoLink: 'https://github.com/meetsudarshan/100-famous-castles'
     },
     {
       id: 3,
       title: 'Odd Jobs- A website to browse your neighborhood handymen and book them for service',
-      image: "./Images/OddJobs.jpg",
+      image: { image3 },
       deployLink: 'To be deployed',
       repoLink: 'https://github.com/JacobRubino/OddJobs'
     },
     {
       id: 4,
       title: 'Work Day Scheduler- A website which allows you to schedule your work better',
-      image: "./Images/workdayscheduler.jpg",
+      image: { image4 },
       deployLink: 'https://meetsudarshan.github.io/05-ThirdParty-API-Challenge/',
       repoLink: 'https://github.com/meetsudarshan/05-ThirdParty-API-Challenge'
     },

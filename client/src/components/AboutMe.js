@@ -1,5 +1,6 @@
 import React from 'react';
 import Skills from './Skills'; // Import the Skills component
+import image from '../Images/me.jpg';
 
 const AboutMe = () => {
   return (
@@ -9,7 +10,7 @@ const AboutMe = () => {
         <div className="card-content">
           <div className="profile">
             <div className="profile-details">
-              <img src="./Images/me.jpg" alt="me me me" />
+              <img src={image} alt="me me me" />
               <div className="bio">
                 <h3>Sudarshan Samaddar</h3>
                 <p>

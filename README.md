@@ -1,5 +1,8 @@
 # 20-React-My-Portfolio
 
+## Description of this project:
+We are learning to build a single page interactive application based on React. 
+
 ## User Story
 
 ```md
@@ -37,3 +40,5 @@ THEN I see a link to a downloadable resume and a list of the developer’s profi
 WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 ```
+## Link to my app- 
+https://meetsudarshan.github.io/20-React-My-Portfolio/
